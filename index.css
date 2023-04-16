@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F1E9;
+    justify-content: space-around;
+    color: brown;
+    width: 100%;
+}
+main{
+   
+    position: relative;
+    background-color: #FFD93D;
+}
+
+.Departments{
+    display: block;
+    background-color: #F6F1E9;
+    padding: 10px;
+
+}
+cardContainer{
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: absolute;
+    top: 400px;
+
+}
+#Administration{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
+}
+
+#xxx{
+  margin: 10px;
+  border: 5px solid black;
+  padding: 10px;
+  /* height: 400px; */
+  width: 410px;
+  justify-content: center;
+  align-items: center;
+}
+
+#Marketing{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
+}
+#Development{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
+}
+#Finance{
+    background-color: #FF8400;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* flex-direction: auto; */
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 10px solid black;
+
+    justify-content: space-around;
+    width: 100%
+}
+
+
+#employeesForm{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+display: flex;
+flex-direction: column;
+background-color: #FF8400;
+
+
+}
+
+footer{
+    background-color: #4F200D;
+    position: relative;
+    top: 2000px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
+}
+footer.div{
+   
+}

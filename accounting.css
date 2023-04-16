@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F1E9;
+    justify-content: space-around;
+    color: brown;
+    width: 100%;
+}
+main{
+   
+    position: relative;
+    background-color: #FFD93D;
+}
+table,th,td{
+    border: 2px solid black;
+}
+th{
+    background-color: antiquewhite;
+    width: 400px;
+
+}
+footer{
+    background-color: #4F200D;
+    position: relative;
+    top: 2000px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
+}

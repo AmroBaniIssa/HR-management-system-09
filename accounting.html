@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accounting.css">
+</head>
+<body>
+    <header> 
+        <h1 ><a href="./index.html">Home</h1>
+        <h1 ><a href="./accounting.html"> Accounting </a></h1>
+        <h1> Admin Page  </h1>
+        <h1> user </h1>
+   </header>
+   <main>
+    <section > 
+        
+        <form id="employeesForm">
+           
+            <fieldset>
+                <legend> Employees Information</legend>
+                <label for="Department">  Department :</label>
+                <select name="Department" id="Department">
+                    <option value="Administration">Administration</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Development">Development</option>
+                    <option value="Finance">Finance</option>
+                </select>
+                <br>
+
+                <label> Number of employee </label>
+                <input type="number" id="numberOfEmployees" name="numberOfEmployees" placeholder="please enter the number of the department employees"
+                />
+                <br>
+                <label> Average salary of Department </label>
+                <input type="number" id="avgSalary" name="avgSalary" placeholder="please enter the average salary of the department"
+                />
+    
+                <!-- <label for="Level">  Level  :</label>
+                <select name="Level" id="Level">
+                    <option value="Junior">Junior</option>
+                    <option value="Mid-Senior">Mid-Senior </option>
+                    <option value="Senior">Senior</option>
+                </select> -->
+                <br>
+    
+                <!-- <label for="ImageURL">   Image  :</label> -->
+                
+                <!-- <input type="text" id="avatarimage" name="avatarimage" placeholder="please enter the URL" /> -->
+                <br>
+                <input type="submit" name="" id="" value="adding New employee" />
+    
+            </fieldset>
+        </form>
+     </section>
+
+
+    <section>
+        <table id="emolooyesInfo">
+          <tr>
+            <th>Department Name</th>
+            <th>Number of employees</th>
+            <th>Average salary of the department</th>
+            <th>Total salary</th>
+
+          </tr>
+          <!-- <tr>
+            <td>mocha</td>
+            <td>3</td>
+          </tr> -->
+        </table>
+      </section>
+   </main>
+
+ <footer>
+    <h1>All Copyright Protected </h1>
+        <h1>contact us :</h1>
+        <section>
+        <h1> facebook: asacd11</h1>
+        <h1> instagram : asacd11 </h1>
+        </section>
+        >
+   </footer>
+
+    <script src="./accounting.js"></script>
+</body>
+</html>
